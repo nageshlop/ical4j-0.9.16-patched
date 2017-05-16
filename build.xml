@@ -32,6 +32,7 @@
 	<property name="project.classpath" value="lib/commons-logging.jar;${output.dir}"/>
     
 	<!-- Targets -->
+    <target name="clean" depends="clean-compile,clean-package,clean-javadoc" />
     <target name="clean-compile">
         <mkdir dir="${output.dir}"/>
         <delete>
