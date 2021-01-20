@@ -42,7 +42,7 @@
     
     <target name="compile">
     	<echo message="Compiling source from classpath: ${project.classpath}"/>
-        <javac source="1.5" target="1.5" srcdir="${source.dir}" destdir="${output.dir}" debug="true" debuglevel="source,lines" deprecation="true" classpath="${project.classpath}"/>
+        <javac source="1.6" target="1.6" srcdir="${source.dir}" destdir="${output.dir}" debug="true" debuglevel="source,lines" deprecation="true" classpath="${project.classpath}"/>
     </target>
     
     <target name="compile-tests">
