@@ -5,5 +5,6 @@ arch:
   - ppc64le
 before_install:
   - sudo apt-get install ant
+  - sudo mkdir ${TRAVIS_BUILD_DIR}/bin
 script: 
   - ant -f ${TRAVIS_BUILD_DIR}/build.xml
